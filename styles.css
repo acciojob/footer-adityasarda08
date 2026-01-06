@@ -1,1 +1,103 @@
-/* your code here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* main content area */
+footer .content {
+  padding: 45px 80px;
+}
+
+/* top section */
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* company text */
+.logo_name {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* social icons */
+.media-icons a {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  margin-left: 14px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.media-icons a:nth-child(1) { background: #4267B2; }
+.media-icons a:nth-child(2) { background: #1DA1F2; }
+.media-icons a:nth-child(3) { background: #E1306C; }
+.media-icons a:nth-child(4) { background: #0077B5; }
+.media-icons a:nth-child(5) { background: #FF0000; }
+
+/* link section */
+.link-boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+/* columns */
+.box {
+  list-style: none;
+  min-width: 180px;
+}
+
+/* headings */
+.link_name {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+/* underline under headings */
+.link_name::after {
+  content: "";
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+}
+
+/* list items */
+.box li {
+  margin: 12px 0;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.box li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* bottom bar */
+.bottom-details {
+  background: #2c2f36;
+  padding: 18px 80px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: #ccc;
+  width:100%;
+}
